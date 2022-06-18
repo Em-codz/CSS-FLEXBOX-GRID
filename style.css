@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+#parent-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 75px 180px;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    height: 85vh;
+    position: relative;
+    padding: 100px;
+}
+.first-button {
+    background-color: white;
+    border: 2px solid white;
+    color: hsl(31, 77%, 52%);
+    padding: 10px 15px;
+    margin-top: 75px ;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 900;
+}
+.second-button {
+    background-color: white;
+    border: 2px solid white;
+    color: hsl(184, 100%, 22%);
+    padding: 10px 15px;
+    margin-top: 75px ;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 900;
+}
+.third-button {
+    background-color: white;
+    border: 2px solid white;
+    color: hsl(179, 100%, 13%);
+    padding: 10px 15px;
+    margin-top: 75px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 900;
+}
+.top-item {
+   background-color: hsl(31, 77%, 52%);
+   width: 33%;
+   height: 65vh;
+   padding: 15px 20px;
+}
+.middle-item {
+    background-color: hsl(184, 100%, 22%);
+    width: 33%;
+    height: 65vh;
+    padding: 15px 20px;
+}
+.bottom-item {
+    background-color: hsl(179, 100%, 13%);
+    width: 33%;
+    height: 65vh;
+    padding: 15px 20px;
+}
+.top-item h2 {
+    color: white;
+    padding: 15px 0px;
+    font-family: "Big Shoulders Display";
+}
+.top-item p {
+    color: white;
+    font-size: 10px;
+    line-height: 1.2rem;
+    font-family: "Lexend Deca";
+}
+
+.middle-item h2 {
+    color: white;
+    padding: 15px 0px;
+    font-family: "Big Shoulders Display";
+}
+.middle-item p {
+    color: white;
+    font-size: 10px;
+    line-height: 1.2rem;
+    font-family: "Lexend Deca";
+}
+.bottom-item h2 {
+    color: white;
+    padding: 15px 0px;
+    font-family: "Big Shoulders Display";
+}
+.bottom-item p {
+    color: white;
+    font-size: 10px;
+    line-height: 1.2rem;
+    font-family: "Lexend Deca";
+}
